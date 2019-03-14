@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent">    <!-- 播放视频的那个Activity的布局文件 --> 
+    
+    <SurfaceView android:id="@+id/surfaceview"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center">         <!-- 添加一个surfaceview控件 -->
+    </SurfaceView>
+  
+    <ImageButton android:src="@drawable/playing"   
+        	android:background="#00000000"
+   	    	android:id="@+id/button_play" 
+   	    	android:layout_centerHorizontal="true"
+   	    	android:layout_width="wrap_content" 
+   	    	android:layout_height="wrap_content">     <!-- 添加一个ImageButton控件 ,用于开始播放 -->
+   	</ImageButton>
+   	
+    <ImageButton android:src="@drawable/stop"
+        	android:background="#00000000"
+   	    	android:id="@+id/button_stop"
+   	    	android:layout_toLeftOf="@id/button_play" 
+   	    	android:layout_marginRight="20dp"
+   	    	android:layout_width="wrap_content" 
+   	    	android:layout_height="wrap_content">   <!-- 添加一个ImageButton控件 ,用于暂停播放 ，这个按键放在播放按钮的左侧 -->
+   	</ImageButton>
+   	
+    <ImageButton android:src="@drawable/faster"
+      		android:background="#00000000"
+   	    	android:id="@+id/button_faster" 
+   	    	android:layout_toRightOf="@id/button_play"
+   	    	android:layout_marginLeft="20dp"
+   	    	android:layout_width="wrap_content" 
+   	    	android:layout_height="wrap_content">  <!-- 添加一个ImageButton控件 ,用于快进播放 ，这个按键放在播放按钮的右侧 -->
+   	</ImageButton>
+   
+</RelativeLayout>

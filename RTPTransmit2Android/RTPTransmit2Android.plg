@@ -1,0 +1,185 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: RTPTransmit2Android - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\王力\AppData\Local\Temp\RSP40D6.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "RTPTRANSMIT2ANDROID_EXPORTS" /Fp"Debug/RTPTransmit2Android.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\王力\Desktop\RTPTransmit2Android\rtcpapppacket.cpp"
+"C:\Users\王力\Desktop\RTPTransmit2Android\rtcpbyepacket.cpp"
+"C:\Users\王力\Desktop\RTPTransmit2Android\rtcpcompoundpacket.cpp"
+"C:\Users\王力\Desktop\RTPTransmit2Android\rtcpcompoundpacketbuilder.cpp"
+"C:\Users\王力\Desktop\RTPTransmit2Android\rtcppacket.cpp"
+"C:\Users\王力\Desktop\RTPTransmit2Android\rtcppacketbuilder.cpp"
+"C:\Users\王力\Desktop\RTPTransmit2Android\rtcprrpacket.cpp"
+"C:\Users\王力\Desktop\RTPTransmit2Android\rtcpscheduler.cpp"
+"C:\Users\王力\Desktop\RTPTransmit2Android\rtcpsdesinfo.cpp"
+"C:\Users\王力\Desktop\RTPTransmit2Android\rtcpsdespacket.cpp"
+"C:\Users\王力\Desktop\RTPTransmit2Android\rtcpsrpacket.cpp"
+"C:\Users\王力\Desktop\RTPTransmit2Android\rtpcollisionlist.cpp"
+"C:\Users\王力\Desktop\RTPTransmit2Android\rtpdebug.cpp"
+"C:\Users\王力\Desktop\RTPTransmit2Android\rtperrors.cpp"
+"C:\Users\王力\Desktop\RTPTransmit2Android\rtpinternalsourcedata.cpp"
+"C:\Users\王力\Desktop\RTPTransmit2Android\rtpipv4address.cpp"
+"C:\Users\王力\Desktop\RTPTransmit2Android\rtpipv6address.cpp"
+"C:\Users\王力\Desktop\RTPTransmit2Android\rtplibraryversion.cpp"
+"C:\Users\王力\Desktop\RTPTransmit2Android\rtppacket.cpp"
+"C:\Users\王力\Desktop\RTPTransmit2Android\rtppacketbuilder.cpp"
+"C:\Users\王力\Desktop\RTPTransmit2Android\rtppollthread.cpp"
+"C:\Users\王力\Desktop\RTPTransmit2Android\rtprandom.cpp"
+"C:\Users\王力\Desktop\RTPTransmit2Android\rtpsession.cpp"
+"C:\Users\王力\Desktop\RTPTransmit2Android\rtpsessionparams.cpp"
+"C:\Users\王力\Desktop\RTPTransmit2Android\rtpsessionsources.cpp"
+"C:\Users\王力\Desktop\RTPTransmit2Android\rtpsourcedata.cpp"
+"C:\Users\王力\Desktop\RTPTransmit2Android\rtpsources.cpp"
+"C:\Users\王力\Desktop\RTPTransmit2Android\rtptimeutilities.cpp"
+"C:\Users\王力\Desktop\RTPTransmit2Android\rtpudpv4transmitter.cpp"
+"C:\Users\王力\Desktop\RTPTransmit2Android\rtpudpv6transmitter.cpp"
+"C:\Users\王力\Desktop\RTPTransmit2Android\Sender.cpp"
+]
+Creating command line "cl.exe @"C:\Users\王力\AppData\Local\Temp\RSP40D6.tmp"" 
+Creating temporary file "C:\Users\王力\AppData\Local\Temp\RSP40F6.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"Debug/RTPTransmit2Android.pdb" /debug /machine:I386 /out:"Debug/RTPTransmit2Android.dll" /implib:"Debug/RTPTransmit2Android.lib" /pdbtype:sept 
+".\Debug\rtcpapppacket.obj"
+".\Debug\rtcpbyepacket.obj"
+".\Debug\rtcpcompoundpacket.obj"
+".\Debug\rtcpcompoundpacketbuilder.obj"
+".\Debug\rtcppacket.obj"
+".\Debug\rtcppacketbuilder.obj"
+".\Debug\rtcprrpacket.obj"
+".\Debug\rtcpscheduler.obj"
+".\Debug\rtcpsdesinfo.obj"
+".\Debug\rtcpsdespacket.obj"
+".\Debug\rtcpsrpacket.obj"
+".\Debug\rtpcollisionlist.obj"
+".\Debug\rtpdebug.obj"
+".\Debug\rtperrors.obj"
+".\Debug\rtpinternalsourcedata.obj"
+".\Debug\rtpipv4address.obj"
+".\Debug\rtpipv6address.obj"
+".\Debug\rtplibraryversion.obj"
+".\Debug\rtppacket.obj"
+".\Debug\rtppacketbuilder.obj"
+".\Debug\rtppollthread.obj"
+".\Debug\rtprandom.obj"
+".\Debug\rtpsession.obj"
+".\Debug\rtpsessionparams.obj"
+".\Debug\rtpsessionsources.obj"
+".\Debug\rtpsourcedata.obj"
+".\Debug\rtpsources.obj"
+".\Debug\rtptimeutilities.obj"
+".\Debug\rtpudpv4transmitter.obj"
+".\Debug\rtpudpv6transmitter.obj"
+".\Debug\Sender.obj"
+]
+Creating command line "link.exe @"C:\Users\王力\AppData\Local\Temp\RSP40F6.tmp""
+<h3>Output Window</h3>
+Compiling...
+rtcpapppacket.cpp
+rtcpbyepacket.cpp
+rtcpcompoundpacket.cpp
+rtcpcompoundpacketbuilder.cpp
+d:\program files (x86)\microsoft visual studio\vc98\include\list(131) : warning C4786: 'std::reverse_bidirectional_iterator<std::list<RTCPCompoundPacketBuilder::Buffer,std::allocator<RTCPCompoundPacketBuilder::Buffer> >::const_iterator,RTCPCompoundPacketBuilder::Buffer,RTCPCompoundPacketBuilder::Buffer const &,RTCPCompoundPacketBuilder::Buffer const *,int>' : identifier was truncated to '255' characters in the debug information
+        d:\program files (x86)\microsoft visual studio\vc98\include\list(129) : while compiling class-template member function '__thiscall std::list<RTCPCompoundPacketBuilder::Buffer,std::allocator<RTCPCompoundPacketBuilder::Buffer> >::std::list<RTCPCompoundPacketBuilder::Buffer,std::allocator<RTCPCompoundPacketBuilder::Buffer> >(const std::allocator<RTCPCompoundPacketBuilder::Buffer> &)'
+d:\program files (x86)\microsoft visual studio\vc98\include\list(131) : warning C4786: 'std::reverse_bidirectional_iterator<std::list<RTCPCompoundPacketBuilder::SDESSource *,std::allocator<RTCPCompoundPacketBuilder::SDESSource *> >::iterator,RTCPCompoundPacketBuilder::SDESSource *,RTCPCompoundPacketBuilder::SDESSource * &,RTCPCompoundPacketBuilder::SDESSource * *,int>' : identifier was truncated to '255' characters in the debug information
+        d:\program files (x86)\microsoft visual studio\vc98\include\list(129) : while compiling class-template member function '__thiscall std::list<RTCPCompoundPacketBuilder::SDESSource *,std::allocator<RTCPCompoundPacketBuilder::SDESSource *> >::std::list<RTCPCompoundPacketBuilder::SDESSource *,std::allocator<RTCPCompoundPacketBuilder::SDESSource *> >(const std::allocator<RTCPCompoundPacketBuilder::SDESSource *> &)'
+d:\program files (x86)\microsoft visual studio\vc98\include\list(131) : warning C4786: 'std::reverse_bidirectional_iterator<std::list<RTCPCompoundPacketBuilder::SDESSource *,std::allocator<RTCPCompoundPacketBuilder::SDESSource *> >::const_iterator,RTCPCompoundPacketBuilder::SDESSource *,RTCPCompoundPacketBuilder::SDESSource * const &,RTCPCompoundPacketBuilder::SDESSource * const *,int>' : identifier was truncated to '255' characters in the debug information
+        d:\program files (x86)\microsoft visual studio\vc98\include\list(129) : while compiling class-template member function '__thiscall std::list<RTCPCompoundPacketBuilder::SDESSource *,std::allocator<RTCPCompoundPacketBuilder::SDESSource *> >::std::list<RTCPCompoundPacketBuilder::SDESSource *,std::allocator<RTCPCompoundPacketBuilder::SDESSource *> >(const std::allocator<RTCPCompoundPacketBuilder::SDESSource *> &)'
+rtcppacket.cpp
+rtcppacketbuilder.cpp
+d:\program files (x86)\microsoft visual studio\vc98\include\list(131) : warning C4786: 'std::reverse_bidirectional_iterator<std::list<RTCPSDESInfo::SDESPrivateItem *,std::allocator<RTCPSDESInfo::SDESPrivateItem *> >::const_iterator,RTCPSDESInfo::SDESPrivateItem *,RTCPSDESInfo::SDESPrivateItem * const &,RTCPSDESInfo::SDESPrivateItem * const *,int>' : identifier was truncated to '255' characters in the debug information
+        d:\program files (x86)\microsoft visual studio\vc98\include\list(129) : while compiling class-template member function '__thiscall std::list<RTCPSDESInfo::SDESPrivateItem *,std::allocator<RTCPSDESInfo::SDESPrivateItem *> >::std::list<RTCPSDESInfo::SDESPrivateItem *,std::allocator<RTCPSDESInfo::SDESPrivateItem *> >(const std::allocator<RTCPSDESInfo::SDESPrivateItem *> &)'
+d:\program files (x86)\microsoft visual studio\vc98\include\list(131) : warning C4786: 'std::reverse_bidirectional_iterator<std::list<RTCPCompoundPacketBuilder::Buffer,std::allocator<RTCPCompoundPacketBuilder::Buffer> >::const_iterator,RTCPCompoundPacketBuilder::Buffer,RTCPCompoundPacketBuilder::Buffer const &,RTCPCompoundPacketBuilder::Buffer const *,int>' : identifier was truncated to '255' characters in the debug information
+        d:\program files (x86)\microsoft visual studio\vc98\include\list(129) : while compiling class-template member function '__thiscall std::list<RTCPCompoundPacketBuilder::Buffer,std::allocator<RTCPCompoundPacketBuilder::Buffer> >::std::list<RTCPCompoundPacketBuilder::Buffer,std::allocator<RTCPCompoundPacketBuilder::Buffer> >(const std::allocator<RTCPCompoundPacketBuilder::Buffer> &)'
+d:\program files (x86)\microsoft visual studio\vc98\include\list(131) : warning C4786: 'std::reverse_bidirectional_iterator<std::list<RTCPCompoundPacketBuilder::SDESSource *,std::allocator<RTCPCompoundPacketBuilder::SDESSource *> >::iterator,RTCPCompoundPacketBuilder::SDESSource *,RTCPCompoundPacketBuilder::SDESSource * &,RTCPCompoundPacketBuilder::SDESSource * *,int>' : identifier was truncated to '255' characters in the debug information
+        d:\program files (x86)\microsoft visual studio\vc98\include\list(129) : while compiling class-template member function '__thiscall std::list<RTCPCompoundPacketBuilder::SDESSource *,std::allocator<RTCPCompoundPacketBuilder::SDESSource *> >::std::list<RTCPCompoundPacketBuilder::SDESSource *,std::allocator<RTCPCompoundPacketBuilder::SDESSource *> >(const std::allocator<RTCPCompoundPacketBuilder::SDESSource *> &)'
+d:\program files (x86)\microsoft visual studio\vc98\include\list(131) : warning C4786: 'std::reverse_bidirectional_iterator<std::list<RTCPCompoundPacketBuilder::SDESSource *,std::allocator<RTCPCompoundPacketBuilder::SDESSource *> >::const_iterator,RTCPCompoundPacketBuilder::SDESSource *,RTCPCompoundPacketBuilder::SDESSource * const &,RTCPCompoundPacketBuilder::SDESSource * const *,int>' : identifier was truncated to '255' characters in the debug information
+        d:\program files (x86)\microsoft visual studio\vc98\include\list(129) : while compiling class-template member function '__thiscall std::list<RTCPCompoundPacketBuilder::SDESSource *,std::allocator<RTCPCompoundPacketBuilder::SDESSource *> >::std::list<RTCPCompoundPacketBuilder::SDESSource *,std::allocator<RTCPCompoundPacketBuilder::SDESSource *> >(const std::allocator<RTCPCompoundPacketBuilder::SDESSource *> &)'
+rtcprrpacket.cpp
+rtcpscheduler.cpp
+d:\program files (x86)\microsoft visual studio\vc98\include\list(131) : warning C4786: 'std::reverse_bidirectional_iterator<std::list<RTCPSDESInfo::SDESPrivateItem *,std::allocator<RTCPSDESInfo::SDESPrivateItem *> >::const_iterator,RTCPSDESInfo::SDESPrivateItem *,RTCPSDESInfo::SDESPrivateItem * const &,RTCPSDESInfo::SDESPrivateItem * const *,int>' : identifier was truncated to '255' characters in the debug information
+        d:\program files (x86)\microsoft visual studio\vc98\include\list(129) : while compiling class-template member function '__thiscall std::list<RTCPSDESInfo::SDESPrivateItem *,std::allocator<RTCPSDESInfo::SDESPrivateItem *> >::std::list<RTCPSDESInfo::SDESPrivateItem *,std::allocator<RTCPSDESInfo::SDESPrivateItem *> >(const std::allocator<RTCPSDESInfo::SDESPrivateItem *> &)'
+rtcpsdesinfo.cpp
+d:\program files (x86)\microsoft visual studio\vc98\include\list(131) : warning C4786: 'std::reverse_bidirectional_iterator<std::list<RTCPSDESInfo::SDESPrivateItem *,std::allocator<RTCPSDESInfo::SDESPrivateItem *> >::const_iterator,RTCPSDESInfo::SDESPrivateItem *,RTCPSDESInfo::SDESPrivateItem * const &,RTCPSDESInfo::SDESPrivateItem * const *,int>' : identifier was truncated to '255' characters in the debug information
+        d:\program files (x86)\microsoft visual studio\vc98\include\list(129) : while compiling class-template member function '__thiscall std::list<RTCPSDESInfo::SDESPrivateItem *,std::allocator<RTCPSDESInfo::SDESPrivateItem *> >::std::list<RTCPSDESInfo::SDESPrivateItem *,std::allocator<RTCPSDESInfo::SDESPrivateItem *> >(const std::allocator<RTCPSDESInfo::SDESPrivateItem *> &)'
+rtcpsdespacket.cpp
+rtcpsrpacket.cpp
+rtpcollisionlist.cpp
+d:\program files (x86)\microsoft visual studio\vc98\include\list(131) : warning C4786: 'std::reverse_bidirectional_iterator<std::list<RTPCollisionList::AddressAndTime,std::allocator<RTPCollisionList::AddressAndTime> >::const_iterator,RTPCollisionList::AddressAndTime,RTPCollisionList::AddressAndTime const &,RTPCollisionList::AddressAndTime const *,int>' : identifier was truncated to '255' characters in the debug information
+        d:\program files (x86)\microsoft visual studio\vc98\include\list(129) : while compiling class-template member function '__thiscall std::list<RTPCollisionList::AddressAndTime,std::allocator<RTPCollisionList::AddressAndTime> >::std::list<RTPCollisionList::AddressAndTime,std::allocator<RTPCollisionList::AddressAndTime> >(const std::allocator<RTPCollisionList::AddressAndTime> &)'
+rtpdebug.cpp
+rtperrors.cpp
+rtpinternalsourcedata.cpp
+d:\program files (x86)\microsoft visual studio\vc98\include\list(131) : warning C4786: 'std::reverse_bidirectional_iterator<std::list<RTCPSDESInfo::SDESPrivateItem *,std::allocator<RTCPSDESInfo::SDESPrivateItem *> >::const_iterator,RTCPSDESInfo::SDESPrivateItem *,RTCPSDESInfo::SDESPrivateItem * const &,RTCPSDESInfo::SDESPrivateItem * const *,int>' : identifier was truncated to '255' characters in the debug information
+        d:\program files (x86)\microsoft visual studio\vc98\include\list(129) : while compiling class-template member function '__thiscall std::list<RTCPSDESInfo::SDESPrivateItem *,std::allocator<RTCPSDESInfo::SDESPrivateItem *> >::std::list<RTCPSDESInfo::SDESPrivateItem *,std::allocator<RTCPSDESInfo::SDESPrivateItem *> >(const std::allocator<RTCPSDESInfo::SDESPrivateItem *> &)'
+rtpipv4address.cpp
+rtpipv6address.cpp
+rtplibraryversion.cpp
+rtppacket.cpp
+rtppacketbuilder.cpp
+rtppollthread.cpp
+d:\program files (x86)\microsoft visual studio\vc98\include\list(153) : warning C4786: 'std::reverse_bidirectional_iterator<std::list<RTPCollisionList::AddressAndTime,std::allocator<RTPCollisionList::AddressAndTime> >::const_iterator,RTPCollisionList::AddressAndTime,RTPCollisionList::AddressAndTime const &,RTPCollisionList::AddressAndTime const *,int>' : identifier was truncated to '255' characters in the debug information
+        d:\program files (x86)\microsoft visual studio\vc98\include\list(151) : while compiling class-template member function '__thiscall std::list<RTPCollisionList::AddressAndTime,std::allocator<RTPCollisionList::AddressAndTime> >::~std::list<RTPCollisionList::AddressAndTime,std::allocator<RTPCollisionList::AddressAndTime> >(void)'
+d:\program files (x86)\microsoft visual studio\vc98\include\list(131) : warning C4786: 'std::reverse_bidirectional_iterator<std::list<RTCPSDESInfo::SDESPrivateItem *,std::allocator<RTCPSDESInfo::SDESPrivateItem *> >::const_iterator,RTCPSDESInfo::SDESPrivateItem *,RTCPSDESInfo::SDESPrivateItem * const &,RTCPSDESInfo::SDESPrivateItem * const *,int>' : identifier was truncated to '255' characters in the debug information
+        d:\program files (x86)\microsoft visual studio\vc98\include\list(129) : while compiling class-template member function '__thiscall std::list<RTCPSDESInfo::SDESPrivateItem *,std::allocator<RTCPSDESInfo::SDESPrivateItem *> >::std::list<RTCPSDESInfo::SDESPrivateItem *,std::allocator<RTCPSDESInfo::SDESPrivateItem *> >(const std::allocator<RTCPSDESInfo::SDESPrivateItem *> &)'
+d:\program files (x86)\microsoft visual studio\vc98\include\list(131) : warning C4786: 'std::reverse_bidirectional_iterator<std::list<RTCPCompoundPacketBuilder::Buffer,std::allocator<RTCPCompoundPacketBuilder::Buffer> >::const_iterator,RTCPCompoundPacketBuilder::Buffer,RTCPCompoundPacketBuilder::Buffer const &,RTCPCompoundPacketBuilder::Buffer const *,int>' : identifier was truncated to '255' characters in the debug information
+        d:\program files (x86)\microsoft visual studio\vc98\include\list(129) : while compiling class-template member function '__thiscall std::list<RTCPCompoundPacketBuilder::Buffer,std::allocator<RTCPCompoundPacketBuilder::Buffer> >::std::list<RTCPCompoundPacketBuilder::Buffer,std::allocator<RTCPCompoundPacketBuilder::Buffer> >(const std::allocator<RTCPCompoundPacketBuilder::Buffer> &)'
+d:\program files (x86)\microsoft visual studio\vc98\include\list(131) : warning C4786: 'std::reverse_bidirectional_iterator<std::list<RTCPCompoundPacketBuilder::SDESSource *,std::allocator<RTCPCompoundPacketBuilder::SDESSource *> >::iterator,RTCPCompoundPacketBuilder::SDESSource *,RTCPCompoundPacketBuilder::SDESSource * &,RTCPCompoundPacketBuilder::SDESSource * *,int>' : identifier was truncated to '255' characters in the debug information
+        d:\program files (x86)\microsoft visual studio\vc98\include\list(129) : while compiling class-template member function '__thiscall std::list<RTCPCompoundPacketBuilder::SDESSource *,std::allocator<RTCPCompoundPacketBuilder::SDESSource *> >::std::list<RTCPCompoundPacketBuilder::SDESSource *,std::allocator<RTCPCompoundPacketBuilder::SDESSource *> >(const std::allocator<RTCPCompoundPacketBuilder::SDESSource *> &)'
+d:\program files (x86)\microsoft visual studio\vc98\include\list(131) : warning C4786: 'std::reverse_bidirectional_iterator<std::list<RTCPCompoundPacketBuilder::SDESSource *,std::allocator<RTCPCompoundPacketBuilder::SDESSource *> >::const_iterator,RTCPCompoundPacketBuilder::SDESSource *,RTCPCompoundPacketBuilder::SDESSource * const &,RTCPCompoundPacketBuilder::SDESSource * const *,int>' : identifier was truncated to '255' characters in the debug information
+        d:\program files (x86)\microsoft visual studio\vc98\include\list(129) : while compiling class-template member function '__thiscall std::list<RTCPCompoundPacketBuilder::SDESSource *,std::allocator<RTCPCompoundPacketBuilder::SDESSource *> >::std::list<RTCPCompoundPacketBuilder::SDESSource *,std::allocator<RTCPCompoundPacketBuilder::SDESSource *> >(const std::allocator<RTCPCompoundPacketBuilder::SDESSource *> &)'
+rtprandom.cpp
+rtpsession.cpp
+c:\users\王力\desktop\rtptransmit2android\rtpsession.cpp(81) : warning C4355: 'this' : used in base member initializer list
+d:\program files (x86)\microsoft visual studio\vc98\include\list(153) : warning C4786: 'std::reverse_bidirectional_iterator<std::list<RTPCollisionList::AddressAndTime,std::allocator<RTPCollisionList::AddressAndTime> >::const_iterator,RTPCollisionList::AddressAndTime,RTPCollisionList::AddressAndTime const &,RTPCollisionList::AddressAndTime const *,int>' : identifier was truncated to '255' characters in the debug information
+        d:\program files (x86)\microsoft visual studio\vc98\include\list(151) : while compiling class-template member function '__thiscall std::list<RTPCollisionList::AddressAndTime,std::allocator<RTPCollisionList::AddressAndTime> >::~std::list<RTPCollisionList::AddressAndTime,std::allocator<RTPCollisionList::AddressAndTime> >(void)'
+d:\program files (x86)\microsoft visual studio\vc98\include\list(131) : warning C4786: 'std::reverse_bidirectional_iterator<std::list<RTCPSDESInfo::SDESPrivateItem *,std::allocator<RTCPSDESInfo::SDESPrivateItem *> >::const_iterator,RTCPSDESInfo::SDESPrivateItem *,RTCPSDESInfo::SDESPrivateItem * const &,RTCPSDESInfo::SDESPrivateItem * const *,int>' : identifier was truncated to '255' characters in the debug information
+        d:\program files (x86)\microsoft visual studio\vc98\include\list(129) : while compiling class-template member function '__thiscall std::list<RTCPSDESInfo::SDESPrivateItem *,std::allocator<RTCPSDESInfo::SDESPrivateItem *> >::std::list<RTCPSDESInfo::SDESPrivateItem *,std::allocator<RTCPSDESInfo::SDESPrivateItem *> >(const std::allocator<RTCPSDESInfo::SDESPrivateItem *> &)'
+d:\program files (x86)\microsoft visual studio\vc98\include\list(131) : warning C4786: 'std::reverse_bidirectional_iterator<std::list<RTCPCompoundPacketBuilder::Buffer,std::allocator<RTCPCompoundPacketBuilder::Buffer> >::const_iterator,RTCPCompoundPacketBuilder::Buffer,RTCPCompoundPacketBuilder::Buffer const &,RTCPCompoundPacketBuilder::Buffer const *,int>' : identifier was truncated to '255' characters in the debug information
+        d:\program files (x86)\microsoft visual studio\vc98\include\list(129) : while compiling class-template member function '__thiscall std::list<RTCPCompoundPacketBuilder::Buffer,std::allocator<RTCPCompoundPacketBuilder::Buffer> >::std::list<RTCPCompoundPacketBuilder::Buffer,std::allocator<RTCPCompoundPacketBuilder::Buffer> >(const std::allocator<RTCPCompoundPacketBuilder::Buffer> &)'
+d:\program files (x86)\microsoft visual studio\vc98\include\list(131) : warning C4786: 'std::reverse_bidirectional_iterator<std::list<RTCPCompoundPacketBuilder::SDESSource *,std::allocator<RTCPCompoundPacketBuilder::SDESSource *> >::iterator,RTCPCompoundPacketBuilder::SDESSource *,RTCPCompoundPacketBuilder::SDESSource * &,RTCPCompoundPacketBuilder::SDESSource * *,int>' : identifier was truncated to '255' characters in the debug information
+        d:\program files (x86)\microsoft visual studio\vc98\include\list(129) : while compiling class-template member function '__thiscall std::list<RTCPCompoundPacketBuilder::SDESSource *,std::allocator<RTCPCompoundPacketBuilder::SDESSource *> >::std::list<RTCPCompoundPacketBuilder::SDESSource *,std::allocator<RTCPCompoundPacketBuilder::SDESSource *> >(const std::allocator<RTCPCompoundPacketBuilder::SDESSource *> &)'
+d:\program files (x86)\microsoft visual studio\vc98\include\list(131) : warning C4786: 'std::reverse_bidirectional_iterator<std::list<RTCPCompoundPacketBuilder::SDESSource *,std::allocator<RTCPCompoundPacketBuilder::SDESSource *> >::const_iterator,RTCPCompoundPacketBuilder::SDESSource *,RTCPCompoundPacketBuilder::SDESSource * const &,RTCPCompoundPacketBuilder::SDESSource * const *,int>' : identifier was truncated to '255' characters in the debug information
+        d:\program files (x86)\microsoft visual studio\vc98\include\list(129) : while compiling class-template member function '__thiscall std::list<RTCPCompoundPacketBuilder::SDESSource *,std::allocator<RTCPCompoundPacketBuilder::SDESSource *> >::std::list<RTCPCompoundPacketBuilder::SDESSource *,std::allocator<RTCPCompoundPacketBuilder::SDESSource *> >(const std::allocator<RTCPCompoundPacketBuilder::SDESSource *> &)'
+rtpsessionparams.cpp
+rtpsessionsources.cpp
+d:\program files (x86)\microsoft visual studio\vc98\include\list(153) : warning C4786: 'std::reverse_bidirectional_iterator<std::list<RTPCollisionList::AddressAndTime,std::allocator<RTPCollisionList::AddressAndTime> >::const_iterator,RTPCollisionList::AddressAndTime,RTPCollisionList::AddressAndTime const &,RTPCollisionList::AddressAndTime const *,int>' : identifier was truncated to '255' characters in the debug information
+        d:\program files (x86)\microsoft visual studio\vc98\include\list(151) : while compiling class-template member function '__thiscall std::list<RTPCollisionList::AddressAndTime,std::allocator<RTPCollisionList::AddressAndTime> >::~std::list<RTPCollisionList::AddressAndTime,std::allocator<RTPCollisionList::AddressAndTime> >(void)'
+d:\program files (x86)\microsoft visual studio\vc98\include\list(131) : warning C4786: 'std::reverse_bidirectional_iterator<std::list<RTCPSDESInfo::SDESPrivateItem *,std::allocator<RTCPSDESInfo::SDESPrivateItem *> >::const_iterator,RTCPSDESInfo::SDESPrivateItem *,RTCPSDESInfo::SDESPrivateItem * const &,RTCPSDESInfo::SDESPrivateItem * const *,int>' : identifier was truncated to '255' characters in the debug information
+        d:\program files (x86)\microsoft visual studio\vc98\include\list(129) : while compiling class-template member function '__thiscall std::list<RTCPSDESInfo::SDESPrivateItem *,std::allocator<RTCPSDESInfo::SDESPrivateItem *> >::std::list<RTCPSDESInfo::SDESPrivateItem *,std::allocator<RTCPSDESInfo::SDESPrivateItem *> >(const std::allocator<RTCPSDESInfo::SDESPrivateItem *> &)'
+d:\program files (x86)\microsoft visual studio\vc98\include\list(131) : warning C4786: 'std::reverse_bidirectional_iterator<std::list<RTCPCompoundPacketBuilder::Buffer,std::allocator<RTCPCompoundPacketBuilder::Buffer> >::const_iterator,RTCPCompoundPacketBuilder::Buffer,RTCPCompoundPacketBuilder::Buffer const &,RTCPCompoundPacketBuilder::Buffer const *,int>' : identifier was truncated to '255' characters in the debug information
+        d:\program files (x86)\microsoft visual studio\vc98\include\list(129) : while compiling class-template member function '__thiscall std::list<RTCPCompoundPacketBuilder::Buffer,std::allocator<RTCPCompoundPacketBuilder::Buffer> >::std::list<RTCPCompoundPacketBuilder::Buffer,std::allocator<RTCPCompoundPacketBuilder::Buffer> >(const std::allocator<RTCPCompoundPacketBuilder::Buffer> &)'
+d:\program files (x86)\microsoft visual studio\vc98\include\list(131) : warning C4786: 'std::reverse_bidirectional_iterator<std::list<RTCPCompoundPacketBuilder::SDESSource *,std::allocator<RTCPCompoundPacketBuilder::SDESSource *> >::iterator,RTCPCompoundPacketBuilder::SDESSource *,RTCPCompoundPacketBuilder::SDESSource * &,RTCPCompoundPacketBuilder::SDESSource * *,int>' : identifier was truncated to '255' characters in the debug information
+        d:\program files (x86)\microsoft visual studio\vc98\include\list(129) : while compiling class-template member function '__thiscall std::list<RTCPCompoundPacketBuilder::SDESSource *,std::allocator<RTCPCompoundPacketBuilder::SDESSource *> >::std::list<RTCPCompoundPacketBuilder::SDESSource *,std::allocator<RTCPCompoundPacketBuilder::SDESSource *> >(const std::allocator<RTCPCompoundPacketBuilder::SDESSource *> &)'
+d:\program files (x86)\microsoft visual studio\vc98\include\list(131) : warning C4786: 'std::reverse_bidirectional_iterator<std::list<RTCPCompoundPacketBuilder::SDESSource *,std::allocator<RTCPCompoundPacketBuilder::SDESSource *> >::const_iterator,RTCPCompoundPacketBuilder::SDESSource *,RTCPCompoundPacketBuilder::SDESSource * const &,RTCPCompoundPacketBuilder::SDESSource * const *,int>' : identifier was truncated to '255' characters in the debug information
+        d:\program files (x86)\microsoft visual studio\vc98\include\list(129) : while compiling class-template member function '__thiscall std::list<RTCPCompoundPacketBuilder::SDESSource *,std::allocator<RTCPCompoundPacketBuilder::SDESSource *> >::std::list<RTCPCompoundPacketBuilder::SDESSource *,std::allocator<RTCPCompoundPacketBuilder::SDESSource *> >(const std::allocator<RTCPCompoundPacketBuilder::SDESSource *> &)'
+rtpsourcedata.cpp
+d:\program files (x86)\microsoft visual studio\vc98\include\list(131) : warning C4786: 'std::reverse_bidirectional_iterator<std::list<RTCPSDESInfo::SDESPrivateItem *,std::allocator<RTCPSDESInfo::SDESPrivateItem *> >::const_iterator,RTCPSDESInfo::SDESPrivateItem *,RTCPSDESInfo::SDESPrivateItem * const &,RTCPSDESInfo::SDESPrivateItem * const *,int>' : identifier was truncated to '255' characters in the debug information
+        d:\program files (x86)\microsoft visual studio\vc98\include\list(129) : while compiling class-template member function '__thiscall std::list<RTCPSDESInfo::SDESPrivateItem *,std::allocator<RTCPSDESInfo::SDESPrivateItem *> >::std::list<RTCPSDESInfo::SDESPrivateItem *,std::allocator<RTCPSDESInfo::SDESPrivateItem *> >(const std::allocator<RTCPSDESInfo::SDESPrivateItem *> &)'
+rtpsources.cpp
+d:\program files (x86)\microsoft visual studio\vc98\include\list(131) : warning C4786: 'std::reverse_bidirectional_iterator<std::list<RTCPSDESInfo::SDESPrivateItem *,std::allocator<RTCPSDESInfo::SDESPrivateItem *> >::const_iterator,RTCPSDESInfo::SDESPrivateItem *,RTCPSDESInfo::SDESPrivateItem * const &,RTCPSDESInfo::SDESPrivateItem * const *,int>' : identifier was truncated to '255' characters in the debug information
+        d:\program files (x86)\microsoft visual studio\vc98\include\list(129) : while compiling class-template member function '__thiscall std::list<RTCPSDESInfo::SDESPrivateItem *,std::allocator<RTCPSDESInfo::SDESPrivateItem *> >::std::list<RTCPSDESInfo::SDESPrivateItem *,std::allocator<RTCPSDESInfo::SDESPrivateItem *> >(const std::allocator<RTCPSDESInfo::SDESPrivateItem *> &)'
+rtptimeutilities.cpp
+rtpudpv4transmitter.cpp
+c:\users\王力\desktop\rtptransmit2android\rtpudpv4transmitter.cpp(523) : warning C4786: 'std::reverse_bidirectional_iterator<std::list<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::iterator,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> > &,std::basic_string<char,std::char_traits<char>,std::allocator<char> > *,int>' : identifier was truncated to '255' characters in the debug information
+c:\users\王力\desktop\rtptransmit2android\rtpudpv4transmitter.cpp(523) : warning C4786: 'std::reverse_bidirectional_iterator<std::list<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::const_iterator,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const *,int>' : identifier was truncated to '255' characters in the debug information
+rtpudpv6transmitter.cpp
+d:\program files (x86)\microsoft visual studio\vc98\include\list(131) : warning C4786: 'std::list<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::list<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >' : identifier was truncated to '255' characters in the debug information
+d:\program files (x86)\microsoft visual studio\vc98\include\list(153) : warning C4786: 'std::list<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::~list<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >' : identifier was truncated to '255' characters in the debug information
+Sender.cpp
+Linking...
+   Creating library Debug/RTPTransmit2Android.lib and object Debug/RTPTransmit2Android.exp
+LIBCMTD.lib(crt0init.obj) : warning LNK4098: defaultlib "msvcrtd.lib" conflicts with use of other libs; use /NODEFAULTLIB:library
+
+
+
+<h3>Results</h3>
+RTPTransmit2Android.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >                  <!-- MainActivity的布局文件 -->
+    
+    <SurfaceView
+        android:id="@+id/loopsurfaceview"  
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+    >
+    </SurfaceView>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:orientation="vertical">
+    	
+        <TextView
+            android:layout_width="match_parent"
+    		android:layout_height="40dp"
+    		android:background="#DCDCDC"
+    		android:gravity="center"
+    		android:textSize="20sp"
+    		android:textStyle="bold"
+    		android:text="@string/Video_list"   
+        />
+        
+    	<ListView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/listView"
+   		/>
+    	
+	</LinearLayout>
+	
+</FrameLayout>

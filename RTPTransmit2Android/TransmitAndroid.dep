@@ -1,0 +1,39 @@
+# Microsoft Developer Studio Generated Dependency File, included by TransmitAndroid.mak
+
+.\Sender.cpp : \
+	".\jmutex.h"\
+	".\rtcpcompoundpacket.h"\
+	".\rtcpcompoundpacketbuilder.h"\
+	".\rtcppacket.h"\
+	".\rtcppacketbuilder.h"\
+	".\rtcpscheduler.h"\
+	".\rtcpsdesinfo.h"\
+	".\rtcpsdespacket.h"\
+	".\rtpaddress.h"\
+	".\rtpcollisionlist.h"\
+	".\rtpconfig.h"\
+	".\rtpconfig_win.h"\
+	".\rtpdefines.h"\
+	".\rtperrors.h"\
+	".\rtphashtable.h"\
+	".\rtpipv4address.h"\
+	".\rtpipv4destination.h"\
+	".\rtpkeyhashtable.h"\
+	".\rtplibraryversion.h"\
+	".\rtpmemorymanager.h"\
+	".\rtpmemoryobject.h"\
+	".\rtppacket.h"\
+	".\rtppacketbuilder.h"\
+	".\rtprandom.h"\
+	".\rtpsession.h"\
+	".\rtpsessionparams.h"\
+	".\rtpsessionsources.h"\
+	".\rtpsources.h"\
+	".\rtpstructs.h"\
+	".\rtptimeutilities.h"\
+	".\rtptransmitter.h"\
+	".\rtptypes.h"\
+	".\rtptypes_win.h"\
+	".\rtpudpv4transmitter.h"\
+	"d:\program files (x86)\microsoft visual studio\vc98\include\basetsd.h"\
+	

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MPlayer</string>                      <!--一个叫app_name的字符串的内容是 “MPlayer” -->
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Set_User_Preference</string>
+    <string name="Settings">Settings</string>
+    <string name="Vedio_Player">Vedio_playing</string>
+    <string name="Video_list">Vedio_list</string>
+	<string name="progressbar_dialog_txt">Loading...</string>
+	<string name="seekbar_dialog_txt">seekbar_dialog_txt//////</string>
+</resources>

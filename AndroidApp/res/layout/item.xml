@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    
+    >
+    
+    <TextView
+        android:id="@+id/VideoName"
+        android:layout_width="fill_parent"
+        android:gravity="center_vertical|start"
+        android:layout_height="40dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+    />
+    
+    <TableRow>
+       <TextView  
+    	android:width="193dp"
+    	android:layout_height="wrap_content"
+    	android:id="@+id/TimeDuring"
+       />
+       <TextView 
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:gravity="start"
+    	android:id="@+id/CreateData"
+       />
+    </TableRow>   
+</TableLayout >
